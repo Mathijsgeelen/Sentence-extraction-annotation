@@ -5,7 +5,7 @@ The sentence boundary detection module provides a script capable of fine-tuning 
 
 Savelka, Jaromir, Vern R. Walker, Matthias Grabmair and Kevin D. Ashley. "Sentence Boundary Detection in Adjudicatory Decisions in the United States." TAL 58.2 (2017).
 
-The Sentence extraction and Annotation artefact uses document layout analysis to extract text blocks from an image, OCR to extract text from an image, fine-tuned DeBERTa (using the sentence boundary detection script) to identify sentence boundaries, and a set of hand-crafted to extract entire sentences, as well as the coordinates of the sentence boundaries. It further provides the ability to highlight words in a copy of a PDF without affecting the original layout. Currently it highlights NER results. To use the artefact open it in Google Colab and download one of the test files from the test files folder.
+The Sentence extraction and Annotation artefact uses document layout analysis to extract text blocks from an image, OCR to extract text from an image, fine-tuned DeBERTa (using the sentence boundary detection script) to identify sentence boundaries, and a set of hand-crafted to extract entire sentences, as well as the coordinates of the sentence boundaries. It further provides the ability to highlight words in a copy of a PDF without affecting the original layout. Currently it highlights NER results. To use the artefact open it in Google Colab and download one of the test files from the test files folder. Also download the DeBERTa model and upload both manually in Google Colab or preferably add them to your Google Drive. Both are required for the script to work.
 
 
 !!!
